@@ -3,7 +3,7 @@ import Calendar from "./components/Calendar";
 import ThemeToggle from "./components/ThemeToggle";
 import LanguageSelector from "./components/LanguageSelector";
 
-import 'src/index.css';
+import './index.css';
 
 const Index = () => {
   const [theme, setTheme] = useState('light-theme');
