@@ -14,7 +14,7 @@ const Index = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light-theme' ? 'dark-theme' : 'light-theme');
+    setTheme(prev => prev === 'dark-theme' ? 'light-theme' : 'dark-theme');
   };
 
   const handleLanguageChange = (newLanguage) => {
